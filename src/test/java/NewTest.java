@@ -97,7 +97,7 @@ public class NewTest {
 	    }
 	    driver.findElement(By.xpath("//div[2]/div/form/div[6]/a")).click();
 	    
-     // Navigate to shopping cart
+     // Navigate to shopping cart.
 	    driver.findElement(By.xpath("//div[@id='shopping-cart']/span[2]")).click();
 	    
      // Get total price and make sure calculated price is correct.
